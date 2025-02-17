@@ -944,10 +944,11 @@ header{
 @media (max-width:992px){
 
     .section-hero {
-        background: #141E30;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #000000, hsla(219, 41%, 13%, 0.611)), url(../img/w1r.png);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #000000, hsla(219, 41%, 13%, 0.604)), url(../img/w1r.png);  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        overflow: hidden;
     }
 
     .section-works {

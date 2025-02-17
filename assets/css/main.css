@@ -1,0 +1,95 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  --principal: #2a2725;
+  --secondary: #ccc;
+  --blue: #1e90ff;
+}
+
+.btn-principal {
+  background: var(--principal);
+  color: #fff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.btn-principal:hover {
+  background-color: #ffffff !important;
+  color: var(--principal);
+  font-weight: 400;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-box-shadow: 0 0 0.2em #fff, 0 0 0.5em #0575E6, 0 0 0.5em #0576e69e;
+          box-shadow: 0 0 0.2em #fff, 0 0 0.5em #0575E6, 0 0 0.5em #0576e69e;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.btn-principal2 {
+  background: transparent;
+  color: #fff;
+  border: 1px solid var(--secondary);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.btn-principal2:hover {
+  background-color: #ffffff !important;
+  color: var(--principal);
+  font-weight: 400;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-box-shadow: 0 0 0.2em #fff, 0 0 0.5em #0575E6, 0 0 0.5em #0576e69e;
+          box-shadow: 0 0 0.2em #fff, 0 0 0.5em #0575E6, 0 0 0.5em #0576e69e;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.icon-wsp {
+  font-size: 1.8em;
+  color: #666666;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.icon-rrss {
+  font-size: 2.5em;
+  color: #141414 !important;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.icon-rrss2 {
+  font-size: 2.9em;
+  color: #141414 !important;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.icon-wsp:hover {
+  color: #fff !important;
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  text-shadow: 0 0 0.2em #87F, 0 0 0.5em #0575E6, 0 0 0.5em #0576e69e;
+}
+
+.icon-rrss:hover {
+  color: #fff !important;
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  text-shadow: 0 0 0.2em #87F, 0 0 0.5em #0575E6, 0 0 0.5em #0576e69e;
+}
+
+.icon-rrss2:hover {
+  color: #fff !important;
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  text-shadow: 0 0 0.2em #87F, 0 0 0.5em #0575E6, 0 0 0.5em #0576e69e;
+}
+.navbar-nav {
+  justify-content: center; /* Centra los elementos de la barra de navegación */
+  width: 100%; /* Asegura que ocupe todo el ancho */
+}
+/*# sourceMappingURL=main.css.map */

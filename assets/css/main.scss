@@ -1,0 +1,78 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+    --principal: #2a2725;
+    --secondary: #ccc;
+    --blue: #1e90ff;
+}
+
+.btn-principal {
+  background: var(--principal);
+  color: #fff;
+  transition: all 0.5s ease;
+  &:hover{
+      background-color: #ffffff !important;
+      color: var(--principal);
+      font-weight: 400;
+      transition: all 0.5s ease;
+      // text-shadow: 0 0 0.2em #fff, 0 0 0.5em #0575E6, 0 0 0.5em #0576e69e;
+      box-shadow: 0 0 0.2em #fff, 0 0 0.5em #0575E6, 0 0 0.5em #0576e69e;
+      // border-color: var(--principal);
+      transition: all 0.4s ease-in-out 0s;
+  }
+}
+
+.btn-principal2 {
+    background: transparent;
+    color: #fff;
+    border: 1px solid var(--secondary);
+    transition: all 0.5s ease;
+    &:hover{
+        background-color: #ffffff !important;
+        color: var(--principal);
+        font-weight: 400;
+        transition: all 0.5s ease;
+        // text-shadow: 0 0 0.2em #fff, 0 0 0.5em #0575E6, 0 0 0.5em #0576e69e;
+        box-shadow: 0 0 0.2em #fff, 0 0 0.5em #0575E6, 0 0 0.5em #0576e69e;
+        // border-color: var(--principal);
+        transition: all 0.4s ease-in-out 0s;
+    }
+}
+
+.icon-wsp{
+    font-size: 1.8em;
+    color: rgb(102, 102, 102);
+    transition: all 0.5s ease;
+}
+
+.icon-rrss{
+    font-size: 2.5em;
+    color: #141414 !important;
+    transition: all 0.5s ease;
+}
+
+.icon-rrss2{
+    font-size: 2.9em;
+    color: #141414 !important;
+    transition: all 0.5s ease;
+}
+
+.icon-wsp:hover{
+    color: #fff !important;
+    opacity: 1;
+    transition: all 0.5s ease;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.5em #0575E6, 0 0 0.5em #0576e69e;
+}
+
+.icon-rrss:hover{
+    color: #fff !important;
+    opacity: 1;
+    transition: all 0.5s ease;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.5em #0575E6, 0 0 0.5em #0576e69e;
+}
+
+.icon-rrss2:hover{
+    color: #fff !important;
+    opacity: 1;
+    transition: all 0.5s ease;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.5em #0575E6, 0 0 0.5em #0576e69e;
+}

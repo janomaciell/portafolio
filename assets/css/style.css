@@ -85,7 +85,7 @@
 .section-hero {
     padding: 9.4em 0px;
     width: 100%;
-    height: 420px;
+    height: 100vh;
     background: #5a5757;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #000000, hsla(219, 41%, 13%, 0.611)), url(../img/w1.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #000000, hsla(219, 41%, 13%, 0.604)), url(../img/w1.jpeg);  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -145,7 +145,7 @@
 @media (min-width: 1920px){
     .section-aboutus{
         padding: 10px 0px;
-        background-color: #fff;
+        background-color: #ffffff;
         background-size: cover;
     }
 }
@@ -711,9 +711,6 @@ header{
 
         /* Menu */
         .navbar-light .navbar-toggler {
-            color: #fff;
-            border-color: #fff;
-            background-color: #fff;
             -webkit-box-shadow: -1px -1px 10px -3px rgba(0,0,0,0.75);
             -moz-box-shadow: -1px -1px 10px -3px rgba(0,0,0,0.75);
             box-shadow: -1px -1px 10px -3px rgba(0,0,0,0.75);
@@ -948,14 +945,14 @@ header{
 
     .section-hero {
         background: #141E30;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #243B55, hsla(219, 41%, 13%, 0.611)), url(../img/w1r.png);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #243B55, hsla(219, 41%, 13%, 0.604)), url(../img/w1r.png);  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(to right, #000000, hsla(219, 41%, 13%, 0.611)), url(../img/w1r.png);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #000000, hsla(219, 41%, 13%, 0.604)), url(../img/w1r.png);  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     }
 
     .section-works {
-        background: -webkit-linear-gradient(to right, #243B55, hsla(219, 05%, 13%, 0.611)), url(../img/wireres.png);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #243B55, hsla(219, 05%, 13%, 0.604)), url(../img/wireres.png);  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(to right, #000000, hsla(219, 05%, 13%, 0.611)), url(../img/wireres.png);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #000000, hsla(219, 05%, 13%, 0.604)), url(../img/wireres.png);  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
